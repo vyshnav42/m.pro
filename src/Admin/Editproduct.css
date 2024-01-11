@@ -1,0 +1,54 @@
+
+/* admineditproduct.css */
+
+/* Style for the image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 20px;
+  }
+  
+  /* Style for the product details container */
+  .product-details-container {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  /* Style for the form container */
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  /* Style for the form */
+  .form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  /* Style for the form input fields */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the form submit button */
+  .submit-button {
+    width: 100%;
+  }
+  
+  /* Media query for responsiveness - adjust as needed */
+  @media (max-width: 768px) {
+    .image-container {
+      width: 100%;
+    }
+  
+    .product-details-container {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,82 @@
+/* sidebar.css */
+
+/* Style for the sidebar container */
+.Dropdown {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #007bff;
+    color: #fff;
+    width: 60px;
+    height: 100%;
+    overflow: hidden; /* Hide overflow content on smaller screens */
+  }
+  
+  /* Style for the dropdown icon */
+  .Dropdown .dropdown-toggle {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  /* Style for the sidebar menu */
+  .sidebar {
+    background-color: white; /* Change background color to white */
+    color: black; /* Change text color to black */
+    width: 200px;
+    min-height: 100%; /* Set minimum height to 100% of the viewport */
+    padding: 20px;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: width 0.3s; /* Smooth width transition */
+  }
+  
+  /* Style for the sidebar heading */
+  .sidebar h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for sidebar links */
+  .sidebar a {
+    text-decoration: none;
+    color: black; /* Change link color to black */
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  /* Style for sidebar links on hover */
+  .sidebar a:hover {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style for the content area on the right */
+  .h-75.w-75 {
+    margin-left: 220px; /* Adjust this based on your sidebar width */
+    padding: 20px;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if content overflows */
+    transition: margin-left 0.3s; /* Smooth margin-left transition */
+  }
+  
+  /* Media query for responsiveness - adjust as needed */
+  @media (max-width: 768px) {
+    .Dropdown {
+      display: none; /* Hide the dropdown on smaller screens */
+    }
+  
+    .h-75.w-75 {
+      margin-left: 0; /* Remove margin for smaller screens */
+    }
+  
+    .sidebar {
+      width: 60px; /* Shrink sidebar width on smaller screens */
+    }
+  }

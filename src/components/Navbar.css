@@ -1,0 +1,73 @@
+/* Navbar.css */
+
+/* Style the Navbar brand */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Change the color to your preference */
+  text-decoration: none;
+}
+
+/* Style the links in the Navbar */
+.link {
+  margin-right: 20px;
+  font-size: 18px;
+  color: #333; /* Change the color to your preference */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #007bff; /* Change the hover color to your preference */
+}
+
+/* Style the search input */
+.search-input {
+  width: 200px; /* Adjust the width as needed */
+  margin-right: 20px;
+}
+
+/* Style the user and cart icons */
+.nav-link {
+  font-size: 24px;
+  color: #333; /* Change the color to your preference */
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Style the user dropdown */
+.dropdown-toggle::after {
+  display: none; /* Hide the dropdown arrow */
+}
+
+/* Style the user dropdown menu */
+.dropdown-menu {
+  background-color: #fff; /* Background color of the dropdown menu */
+  border: 1px solid #ccc; /* Border color */
+}
+
+.dropdown-item {
+  font-size: 18px;
+  color: #333; /* Text color */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.dropdown-item:hover {
+  color: #007bff; /* Hover color */
+}
+
+/* Style the cart icon and badge */
+.nav-link.n {
+  display: flex;
+  align-items: center;
+}
+
+.badge {
+  background-color: #007bff; /* Badge background color */
+  color: #fff; /* Badge text color */
+  padding: 3px 6px; /* Adjust padding as needed */
+  border-radius: 50%; /* Make it circular */
+  font-size: 12px;
+  margin-left: 5px;
+}

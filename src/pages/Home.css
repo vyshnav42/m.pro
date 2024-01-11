@@ -1,0 +1,23 @@
+/* Example styles for a header */
+h1 {
+    font-size: 36px;
+    color: #ff6600;
+    text-align: center;
+  }
+  
+  /* Example styles for a navigation bar */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Example styles for a button */
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
